@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block stylesheets %}
+    {{ super() }}
+{% endblock stylesheets %}
+
+{% block content %}
+    <h1>Not Found</h1>
+    <p><a href="{{ url_for('main.index') }}">Back</a></p>
+{% endblock content %}
+
+
+
+{% block javascripts %}
+    {{ super() }}
+{% endblock javascripts %}

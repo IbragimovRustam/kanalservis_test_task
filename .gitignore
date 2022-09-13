@@ -1,0 +1,15 @@
+# Cache
+__pycache__
+
+# OS
+.DS_Store
+
+# IDE
+.vscode
+
+# Settings
+.envrc
+
+
+# Virtual environment
+nn_env

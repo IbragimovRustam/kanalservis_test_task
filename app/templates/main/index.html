@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="container mt-5">
+        <div class="row d-flex justify-content-center">
+            <p>
+                <b>Приложение по визуализации данных с таблицы Google Sheets</b><br>
+                Приложение доступпно по адресу <a href="http://127.0.0.1:8080/orders">http://127.0.0.1:8080/orders</a><br>
+                Адми панель <a href="http://127.0.0.1:8080/admin">http://127.0.0.1:8080/admin</a><br>
+                Для обновления данных необходимо нажать кнопку <b>"Обновить"</b><br>
+                Используемые библиотеки: flask, dash, plotly и др.
+            </p>
+        </div>
+    </div>
+
+{% endblock content %}
+
+
+
+{% block javascripts %}
+    {{ super()}}
+{% endblock javascripts %}
